@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Fijar la barra */
+    top: 0; /* Se fija en la parte superior */
+    width: 100%; /* Que ocupe todo el ancho de la página */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+/* Estilos del texto TechnoLife */
+.tech {
+    color: #41BBD9;
+}
+
+.no {
+    color: #FBF5F3;
+}
+
+.life {
+    color: #99C24D;
+}
+
+nav .logo h1 {
+    margin-left: 20px;
+    font-size: 36px; /* Ajusta este valor según el tamaño que desees */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 18px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Sección principal */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #003366; /* Azul oscuro */
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #003366; /* Azul oscuro */
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #006400; /* Verde oscuro */
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #228B22; /* Verde oscuro más claro */
+}
+
+/* Sección de productos */
+.productos {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.productos h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.productos-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto h4 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.producto p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.producto button {
+    padding: 10px 15px;
+    background-color: #006400; /* Verde oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background-color: #228B22; /* Verde oscuro más claro */
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 35px;
+}
+
+/* Sección de ubicación */
+#ubicacion {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#ubicacion h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+iframe {
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    height: 40px; /* Ajusta el tamaño según sea necesario */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
